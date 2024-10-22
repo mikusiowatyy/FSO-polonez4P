@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FSO - O nas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #bb1212;
+            --secondary-color: #ffffff;
+            --dark-color: #000000;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: var(--dark-color);
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .nav-link {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-right: 20px;
+            text-transform: uppercase;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+        .about-section {
+            padding: 60px 0;
+            text-align: center;
+            flex: 1; 
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: var(--dark-color);
+            color: var(--secondary-color);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Logo FSO" style="height: 60px; margin-right: 10px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="onas.html">O nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>O Fabryce Samochodów Osobowych</h2>
+            <p>Fabryka Samochodów Osobowych (FSO) została założona w 1951 roku i szybko stała się jednym z kluczowych graczy na polskim rynku motoryzacyjnym. Nasze pojazdy, takie jak Syrena, Warszawa i Polonez, są symbolem niezawodności, innowacyjności i polskiej myśli technicznej. Naszym celem jest dostarczanie klientom samochodów, które spełniają ich oczekiwania pod względem jakości, bezpieczeństwa i stylu.</p>
+            <p>W FSO kładziemy duży nacisk na rozwój technologiczny oraz zrównoważony rozwój. Dzięki naszym staraniom, jesteśmy w stanie dostarczać nowoczesne rozwiązania, które odpowiadają na potrzeby współczesnych użytkowników.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FSO. Wszelkie prawa zastrzeżone.</p>
+        <p><a href="privacy.html">Polityka prywatności</a> | <a href="terms.html">Regulamin</a></p>
+    </footer>
+
+</body>
+</html>
